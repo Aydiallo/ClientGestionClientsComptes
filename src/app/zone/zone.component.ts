@@ -7,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ZoneComponent implements OnInit {
 
-  constructor(public code: string,
-    public description: string) { }
+  constructor() {
+     }
 
   ngOnInit() {
   }
+
+
+
+
+
 
 }

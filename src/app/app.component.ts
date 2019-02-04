@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ClientGestionClientsComptes';
+  showHideSidebar: Boolean = false;
+
+  onShowHideSidebarChange(showHideSidebar) {
+     this.showHideSidebar = showHideSidebar;
+  }
 }

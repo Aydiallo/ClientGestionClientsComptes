@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { ZoneComponent } from './zone/zone.component';
 import { ClientComponent } from './client/client.component';
 import { CompteComponent } from './compte/compte.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ZoneComponent,
     ClientComponent,
-    CompteComponent
+    CompteComponent,
+    NavbarComponent,
+    SidebarComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
